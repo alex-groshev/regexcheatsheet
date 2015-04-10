@@ -1,0 +1,191 @@
+<h3>Python, PHP, and Perl Supported Metacharacters</h3>
+<table>
+	<tr>
+		<th>Metacharacters</th>
+		<th>Meaning</th>
+	</tr>
+	<tr>
+		<td>\a</td>
+		<td>Alert</td>
+	</tr>
+	<tr>
+		<td>\b</td>
+		<td>Backspace</td>
+	</tr>
+	<tr>
+		<td>\n</td>
+		<td>Newline</td>
+	</tr>
+	<tr>
+		<td>\r</td>
+		<td>Carriage return</td>
+	</tr>
+	<tr>
+		<td>\f</td>
+		<td>Form feed</td>
+	</tr>
+	<tr>
+		<td>\t</td>
+		<td>Horizontal tab</td>
+	</tr>
+	<tr>
+		<td>\octal</td>
+		<td>Character specified by a three-digit octal code</td>
+	</tr>
+	<tr>
+		<td>[...]</td>
+		<td>Range</td>
+	</tr>
+	<tr>
+		<td>[^...]</td>
+		<td>Not in range</td>
+	</tr>
+	<tr>
+		<td>.</td>
+		<td>Any character except newline</td>
+	</tr>
+	<tr>
+		<td>\w</td>
+		<td>Word character [a-zA-Z0-9_]</td>
+	</tr>
+	<tr>
+		<td>\W</td>
+		<td>Nonword character [^a-zA-Z0-9_]</td>
+	</tr>
+	<tr>
+		<td>\d</td>
+		<td>Digit character [0-9]</td>
+	</tr>
+	<tr>
+		<td>\D</td>
+		<td>Nondigit character [^0-9]</td>
+	</tr>
+	<tr>
+		<td>\s</td>
+		<td>Whitespace character [\n\r\f\t]</td>
+	</tr>
+	<tr>
+		<td>\S</td>
+		<td>Nonwhitespace character [^\n\r\f\t]</td>
+	</tr>
+	<tr>
+		<td>^</td>
+		<td>Start of string</td>
+	</tr>
+	<tr>
+		<td>\A</td>
+		<td>Start of search string, in all match modes</td>
+	</tr>
+	<tr>
+		<td>$</td>
+		<td>End of string</td>
+	</tr>
+	<tr>
+		<td>\Z</td>
+		<td>End of string, or the point before a string-ending newline, in any match mode</td>
+	</tr>
+	<tr>
+		<td>\b</td>
+		<td>Word boundary</td>
+	</tr>
+	<tr>
+		<td>\B</td>
+		<td>Not-word-boundary</td>
+	</tr>
+	<tr>
+		<td>(?=...)</td>
+		<td>Positive lookahead</td>
+	</tr>
+	<tr>
+		<td>(?!...)</td>
+		<td>Negative lookahead</td>
+	</tr>
+	<tr>
+		<td>(?&lt;=...)</td>
+		<td>Positive lookbehind</td>
+	</tr>
+	<tr>
+		<td>(?&lt;!...)</td>
+		<td>Negative lookbehind</td>
+	</tr>
+	<tr>
+		<td>i</td>
+		<td>Case-insensitive matching</td>
+	</tr>
+	<tr>
+		<td>m</td>
+		<td>^ and $ match next to embedded \n</td>
+	</tr>
+	<tr>
+		<td>s</td>
+		<td>Dot (.) matches newline</td>
+	</tr>
+	<tr>
+		<td>x</td>
+		<td>Ignore whitespace, and allow comments (#) in pattern</td>
+	</tr>
+	<tr>
+		<td>(?mode)</td>
+		<td>Turn list modes on fot the rest of the subexpression</td>
+	</tr>
+	<tr>
+		<td>(?#...)</td>
+		<td>Treat substring as a comment</td>
+	</tr>
+	<tr>
+		<td>#...</td>
+		<td>Rest of the line is treated as a comment in x mode</td>
+	</tr>
+	<tr>
+		<td>(...)</td>
+		<td>Group subpattern and capture submatch into \1, \2, ..</td>
+	</tr>
+	<tr>
+		<td>\n</td>
+		<td>Contains the result of nth earlier submatch from a parentheses capture group, or a named capture group</td>
+	</tr>
+	<tr>
+		<td>(?:...)</td>
+		<td>Groups subpattern, but does not capture submatch</td>
+	</tr>
+	<tr>
+		<td>...|...</td>
+		<td>Try subpatterns in alternation</td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td>Match 0 or more times</td>
+	</tr>
+	<tr>
+		<td>+</td>
+		<td>Match 1 or more times</td>
+	</tr>
+	<tr>
+		<td>?</td>
+		<td>Match 1 or 0 times</td>
+	</tr>
+	<tr>
+		<td>{n}</td>
+		<td>Match exactly n times</td>
+	</tr>
+	<tr>
+		<td>{x,y}</td>
+		<td>Match at least x times, but no more than y times</td>
+	</tr>
+	<tr>
+		<td>*?</td>
+		<td>Match 0 or more times, but a few times as possible</td>
+	</tr>
+	<tr>
+		<td>+?</td>
+		<td>Match 1 or more times, but a few times as possible</td>
+	</tr>
+	<tr>
+		<td>??</td>
+		<td>Match 0 or 1 times, but as few times as possible</td>
+	</tr>
+	<tr>
+		<td>{x,y}?</td>
+		<td>Match at least x times, no more than y times, and as few times as possible</td>
+	</tr>
+</table>
