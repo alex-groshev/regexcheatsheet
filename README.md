@@ -1,6 +1,6 @@
 # Regex Cheat Sheet
 
-## The most commonly used metacharacters in Python, PHP, Perl, and JavaScript
+## The most commonly used metacharacters in Python, PHP, Perl, JavaScript, and Ruby
 
 | Metacharacter | Meaning |
 | ------------- |:------- |
